@@ -1,0 +1,11 @@
+@token = ...
+
+###
+GET https://api.elvanto.com/v1/people/currentUser.json
+Authorization: Bearer {{token}}
+Accept: application/json
+
+###
+GET https://api.elvanto.com/v1/people/getAll.json
+Authorization: Bearer {{token}}
+Accept: application/json
